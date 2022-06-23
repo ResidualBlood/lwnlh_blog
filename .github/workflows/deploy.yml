@@ -28,7 +28,7 @@ jobs:
             - name: Deploy Web
               uses: peaceiris/actions-gh-pages@v3
               with:
-                  PERSONAL_TOKEN: ${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}
+                  PERSONAL_TOKEN: ${{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}}
                   EXTERNAL_REPOSITORY: ResidualBlood/ResidualBlood.github.io
                   PUBLISH_BRANCH: master
                   PUBLISH_DIR: ./public

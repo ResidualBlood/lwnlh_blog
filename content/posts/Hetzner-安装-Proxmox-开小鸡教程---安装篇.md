@@ -1,13 +1,13 @@
 ---
-title: "Hetnzer 安装 Proxmox 开小鸡教程 - 安装篇"
+title: "Hetzner 安装 Proxmox 开小鸡教程 - 安装篇"
 categories: [ "干货","折腾" ]
-tags: [ "BBR","Hetnzer","Proxmox","NAT ipv4","ipv6","网络配置","interfaces" ]
+tags: [ "BBR","Hetzner","Proxmox","NAT ipv4","ipv6","网络配置","interfaces" ]
 draft: false
 slug: "18"
 date: "2021-09-13 15:21:00"
 ---
 
-> 此系列主要记录 Hetnzer 安装 Proxmox 开小鸡的流程，主适用于宿主机为单ipv4,多ipv6，想开小鸡为 NAT ipv4 + 独立 ipv6 的情境
+> 此系列主要记录 Hetzner 安装 Proxmox 开小鸡的流程，主适用于宿主机为单ipv4,多ipv6，想开小鸡为 NAT ipv4 + 独立 ipv6 的情境
 > 本文为此系列第一篇 主要记录 Proxmox 的安装，以及宿主机的网络配置
 
 ## 一、准备工作

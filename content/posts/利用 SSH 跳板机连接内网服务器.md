@@ -1,5 +1,5 @@
 ---
-title: "利用SSH跳板机连接内网服务器"
+title: "利用 SSH 跳板机连接内网服务器"
 categories: [ "干货","折腾" ]
 tags: [ "ssh","跳板机" ]
 draft: false
@@ -44,5 +44,6 @@ Host target                     #同样，任意名字，随便起
 ## 四、使用
 直接输入`ssh target`即可，同理连接`跳板`直接输入`ssh jump`
 
->参考： [ssh 通过跳板机直连跳板机内网服务器](https://outmanzzq.github.io/2018/11/20/ssh-connect-through-springboard/)
+>参考：  
+[ssh 通过跳板机直连跳板机内网服务器](https://outmanzzq.github.io/2018/11/20/ssh-connect-through-springboard/)
 

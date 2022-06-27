@@ -1,5 +1,5 @@
 ---
-title: "添加Cloudflare CDN遇到的问题及解决"
+title: "添加 Cloudflare CDN 遇到的问题及解决"
 categories: [ "折腾" ]
 tags: [ "CDN","Cloudflare","Typecho" ]
 draft: false
@@ -7,9 +7,7 @@ slug: "10"
 date: "2019-04-24 15:41:00"
 ---
 
-[Meting]
-[Music server="netease" id="34014166" type="song"/]
-[/Meting]
+
 给博客迁移到了搬瓦工传家宝上并使用Cloudflare CDN加速中间的一些坑~
 #一 后台管理页面会打不开
 如果博客到CDN没有启用https，而CDN启用https可能会造成后台管理页面打不开的状况。

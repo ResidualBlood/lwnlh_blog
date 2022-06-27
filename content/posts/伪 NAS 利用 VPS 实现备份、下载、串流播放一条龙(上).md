@@ -1,5 +1,5 @@
 ---
-title: "伪-NAS 利用VPS实现备份、下载、串流播放一条龙(上)"
+title: "伪 NAS 利用 VPS 实现备份、下载、串流播放一条龙(上)"
 categories: [ "干货","折腾" ]
 tags: [ "NAS","Nextcloud","DirectoryLister","Aria2","AriaNg" ]
 draft: false
@@ -8,6 +8,7 @@ date: "2018-12-01 19:27:00"
 ---
 
 > 本文主要讲述使用VPS安装Nextcloud、DirectoryLister、Aria2、AriaNg等服务来实现备份、下载、串流播放等功能......
+
 #新建虚拟主机
 首先我们需要新建三个虚拟主机、假设三个虚拟主机网址分别为`cloud.test.com`、`dd.test.com`、`ar.test.com`,
 在`lnmp`目录下运行：
@@ -115,7 +116,7 @@ wget https://download.nextcloud.com/server/releases/nextcloud-14.0.4.zip
 <!--more-->
 
 
-> 参考：
-> [一个逗比魔改的Directory Lister~](https://github.com/ToyoDAdoubi/DirectoryLister)
-> [AriaNg](https://github.com/mayswind/AriaNg)
+> 参考：  
+> [一个逗比魔改的Directory Lister~](https://github.com/ToyoDAdoubi/DirectoryLister)  
+> [AriaNg](https://github.com/mayswind/AriaNg)  
 > [『原创』BT/种子/磁力链接下载工具 —— Aria2 一键安装管理脚本](https://doub.io/shell-jc4/)

@@ -1,5 +1,5 @@
 ---
-title: "自建Clash订阅转换"
+title: "自建 Clash 订阅转换"
 categories: [ "干货","折腾" ]
 tags: [ "Clash","subconverter","Sub-Web","订阅转换","Docker-compose" ]
 draft: false
@@ -13,7 +13,8 @@ date: "2020-12-22 20:45:00"
 ## 一、准备工作
 首先，你需要两个域名，一个给前端，一个给后端使用，本文举例后端：`suc.test.com`，前端：`sub.test.com`
 ## 二、搭建后端subconverter
-> 原始项目地址：[https://github.com/tindy2013/subconverter](https://github.com/tindy2013/subconverter)
+> 原始项目地址：[https://github.com/tindy2013/subconverter](https://github.com/tindy2013/subconverter)  
+
 > 修改项目地址：[https://github.com/stilleshan/subconverter](https://github.com/stilleshan/subconverter)
 
 后者相对于原版修改了以下部分：
@@ -55,7 +56,8 @@ location / {
 实际上转换只使用后端就足够了，但为了偷懒以及方便选择不同配置还是继续搭建前端
 
 ## 三、搭建前端Sub-Web
-> 项目地址：[https://github.com/CareyWang/sub-web](https://github.com/CareyWang/sub-web)
+> 项目地址：[https://github.com/CareyWang/sub-web](https://github.com/CareyWang/sub-web)  
+
 这里主要说一下如何添加`ACL4SSR`配置、自定义配置，简要说明安装过程
 ### 下载
 Clone至本地

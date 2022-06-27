@@ -1,5 +1,5 @@
 ---
-title: "Clash自定义分流规则"
+title: "Clash 自定义分流规则"
 categories: [ "干货","折腾" ]
 tags: [ "Clash","分流","自定义规则","ACL4SSR" ]
 draft: false
@@ -7,7 +7,7 @@ slug: "14"
 date: "2020-12-22 22:10:00"
 ---
 
-> 本文主要讲述如何在`ACL4SSR`的Clash规则基础上魔改出适合自己的规则配置文件，并方便前文订阅转换的调用
+> 本文主要讲述如何在`ACL4SSR`的Clash规则基础上魔改出适合自己的规则配置文件，并方便前文订阅转换的调用  
 `ACL4SSR`项目地址：[https://github.com/ACL4SSR/ACL4SSR/tree/master](https://github.com/ACL4SSR/ACL4SSR/tree/master)
 ## 目录结构
 `ACL4ALL`目录结构如下所示，这里我们主要关注`Clash`目录下的`Ruleset`目录，以及`config`目录，其中：

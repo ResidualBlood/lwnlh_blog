@@ -1,5 +1,5 @@
 ---
-title: "利用OneinStack搭建LNMP网站环境"
+title: "利用 OneinStack 搭建 LNMP 网站环境"
 categories: [ "干货","折腾","分享" ]
 tags: [ "LNMP","OneinStack","虚拟主机","Nginx","PHP" ]
 draft: false
@@ -89,6 +89,6 @@ service memcached {start|stop|status|restart|reload}
 ```
 按照提示输入即可
 
-> **参考** 
-> [lnmp、lamp、lnmpa一键安装包](https://blog.linuxeye.cn/31.html)
+> **参考**  
+> [lnmp、lamp、lnmpa一键安装包](https://blog.linuxeye.cn/31.html)  
 > [OneinStack](https://oneinstack.com/download/)

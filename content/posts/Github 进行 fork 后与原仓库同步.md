@@ -1,5 +1,5 @@
 ---
-title: "Github进行fork后与原仓库同步"
+title: "Github 进行 fork 后与原仓库同步"
 categories: [ "干货","折腾" ]
 tags: [ "版本合并","merge","Github" ]
 draft: false
@@ -7,8 +7,10 @@ slug: "15"
 date: "2020-12-23 22:05:00"
 ---
 
-> 本文主要讲述Github进行fork后如何与原仓库同步，即版本合并；其有两种方法，分别为：本地合并、Github合并
+> 本文主要讲述Github进行fork后如何与原仓库同步，即版本合并；其有两种方法，分别为：本地合并、Github合并  
+
 > 主要参照：[https://github.com/selfteaching/the-craft-of-selfteaching/issues/67](https://github.com/selfteaching/the-craft-of-selfteaching/issues/67)
+
 ## 一、本地合并
 适合代码修改较多
 

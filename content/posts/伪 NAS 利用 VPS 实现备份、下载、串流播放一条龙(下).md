@@ -1,5 +1,5 @@
 ---
-title: "伪-NAS 利用VPS实现备份、下载、串流播放一条龙(下) "
+title: "伪 NAS 利用 VPS 实现备份、下载、串流播放一条龙(下)"
 categories: [ "干货","折腾" ]
 tags: [ "Nextcloud","rclone","Google Drive" ]
 draft: false
@@ -278,5 +278,5 @@ done
 接着`设置`-`外部存储`按图所示添加即可
 ![](https://ws1.sinaimg.cn/large/006uw7syly1fxzb3awhgkj31mz053zkn.jpg)
 
-> 参考
+> 参考  
 > [使用Aira2下载文件后自动上传到Google Drive网盘](https://www.moerats.com/archives/482/)

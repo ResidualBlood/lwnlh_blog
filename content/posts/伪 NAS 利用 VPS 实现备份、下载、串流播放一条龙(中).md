@@ -1,5 +1,5 @@
 ---
-title: "伪-NAS 利用VPS实现备份、下载、串流播放一条龙(中)"
+title: "伪 NAS 利用 VPS 实现备份、下载、串流播放一条龙(中)"
 categories: [ "干货","折腾" ]
 tags: [ "Nextcloud","Aria2","Directory Lister" ]
 draft: false
@@ -312,7 +312,7 @@ chown -R www:www  你的网站目录
 ```
 这一点很重要！！！
 
-> 参考：
-> [一个逗比魔改的Directory Lister~](https://github.com/ToyoDAdoubi/DirectoryLister)
-> [『原创』BT/种子/磁力链接下载工具 —— Aria2 一键安装管理脚本](https://doub.io/shell-jc4/)
+> 参考：  
+> [一个逗比魔改的Directory Lister~](https://github.com/ToyoDAdoubi/DirectoryLister)  
+> [『原创』BT/种子/磁力链接下载工具 —— Aria2 一键安装管理脚本](https://doub.io/shell-jc4/)  
 > [手动安装NextCloud教程-免费开源的私有云存储网盘可播放图片音乐](https://wzfou.com/nextcloud-install/)

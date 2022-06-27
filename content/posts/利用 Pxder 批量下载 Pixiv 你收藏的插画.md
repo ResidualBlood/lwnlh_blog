@@ -1,5 +1,5 @@
 ---
-title: "利用Pxder批量下载P站你收藏的插画"
+title: "利用 Pxder 批量下载 Pixiv 你收藏的插画"
 categories: [ "干货","折腾","分享" ]
 tags: [ "P站","pixiv","Pxder" ]
 draft: false
@@ -7,9 +7,9 @@ slug: "9"
 date: "2019-01-11 19:06:00"
 ---
 
-> Pxder是一款利用Node.js编写的能够批量下载你在P站收藏，或者喜欢的画师插画的下载器，
-其开源地址为：[https://github.com/Tsuk1ko/pxder](https://github.com/Tsuk1ko/pxder)
-本篇主要讲解在Ubuntu16.04下使用，Windows下可参考上面的地址
+> Pxder是一款利用Node.js编写的能够批量下载你在P站收藏，或者喜欢的画师插画的下载器，其开源地址为：[https://github.com/Tsuk1ko/pxder](https://github.com/Tsuk1ko/pxder)
+
+>本篇主要讲解在Ubuntu16.04下使用，Windows下可参考上面的地址
 
 
 <!--more-->

@@ -1,5 +1,5 @@
 ---
-title: "VPS的加固及优化"
+title: "VPS 的加固及优化"
 categories: [ "干货","折腾" ]
 tags: [ "VPS","fail2ban","BBR","密钥" ]
 draft: false

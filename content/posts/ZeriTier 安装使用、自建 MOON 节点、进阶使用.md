@@ -1,5 +1,5 @@
 ---
-title: "ZeriTier安装使用、自建MOON节点、进阶使用"
+title: "ZeriTier 安装使用、自建 MOON 节点、进阶使用"
 categories: [ "干货","折腾" ]
 tags: [ "Linux","ZeroTier","内网穿透","P2P" ]
 draft: false
@@ -116,6 +116,6 @@ Ping 一下，看看是不是就通了
 
 高版本的`ZeroTier`已经帮你配置好了防火墙，基本不用管其他问题，直接用就行
 
-> 参考：
-> ZeroTier: [https://www.zerotier.com/download/](https://www.zerotier.com/download/)
-> ZqinKing: [https://post.smzdm.com/p/adwrepgk/](https://post.smzdm.com/p/adwrepgk/)
+> 参考：  
+> - ZeroTier: [https://www.zerotier.com/download/](https://www.zerotier.com/download/)  
+> - ZqinKing: [https://post.smzdm.com/p/adwrepgk/](https://post.smzdm.com/p/adwrepgk/)

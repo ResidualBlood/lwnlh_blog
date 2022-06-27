@@ -1,5 +1,5 @@
 ---
-title: "VPS选择，测试，升级"
+title: "VPS 选择，测试，升级"
 categories: [ "干货","折腾" ]
 tags: [ "VPS","测试" ]
 draft: false
@@ -7,7 +7,7 @@ slug: "1"
 date: "2018-11-28 19:14:00"
 ---
 
-> 作者言
+> 作者言  
 扶墙向：本篇讲述的是如何选择VPS，以及对购买完后的VPS进行测试及系统升级......
 #VPS的选择
 如何选择VPS，第一要素自然是是看延迟咯，所以我们先上 [这个](https://www.msmbps.com/) 网站测试下你到一些常见的VPS供应商机房的延迟，下面给张图：
@@ -80,6 +80,6 @@ lsb_release -a
 可以看到你的系统升级后的版本
 
 > **参考**
-> [秋水逸冰一键测试脚本bench.sh](https://teddysun.com/444.html)
-> [How To Upgrade to Ubuntu 16.04 LTS](https://www.digitalocean.com/community/tutorials/how-to-upgrade-to-ubuntu-16-04-lts)
+> [秋水逸冰一键测试脚本bench.sh](https://teddysun.com/444.html)  
+> [How To Upgrade to Ubuntu 16.04 LTS](https://www.digitalocean.com/community/tutorials/how-to-upgrade-to-ubuntu-16-04-lts)  
 > [Linode VPS从Ubuntu Server 14.04LTS升级到Ubuntu Server 16.04LTS](https://www.daweibro.com/node/154)

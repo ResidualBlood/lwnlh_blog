@@ -1,5 +1,5 @@
 ---
-title: "在Linux(Manjaro)上使用MIDI键盘"
+title: "在 Linux ( Manjaro ) 上使用 MIDI 键盘"
 categories: [ "干货","折腾" ]
 tags: [ "MIDI","Manjaro","Linux","键盘","Arch" ]
 draft: false
@@ -7,9 +7,10 @@ slug: "11"
 date: "2020-03-07 19:36:00"
 ---
 
-> 记录下在Manjaro上使用MIDI键盘的操作。主要参考[Arch wiki](https://wiki.archlinux.org/index.php/USB_MIDI_keyboards)的`USB MIDI keyboards`部分。
-##准备工作
-###确认你的声卡驱动为`ALSA`
+> 记录下在Manjaro上使用MIDI键盘的操作。主要参考[Arch wiki](https://wiki.archlinux.org/index.php/USB_MIDI_keyboards)的`USB MIDI keyboards`部分。  
+
+## 准备工作
+### 确认你的声卡驱动为`ALSA`
 安装`alsa-utils`
 ```
 sudo pacman -S alsa-utils
@@ -19,7 +20,7 @@ sudo pacman -S alsa-utils
 Waiting for data at port 128:0. Press Ctrl+C to end.
 Source_ Event_________________ Ch _Data__
 ```
-###确认你的MIDI键盘与Manjaro正常通信
+### 确认你的MIDI键盘与Manjaro正常通信
 1. 插上你的MIDI键盘，打开电源，输入`lsusb`应该能看到以下输出，其中`Nektar Impact GX61`即为MIDI键盘
 ![](https://dig4.lwnlh.com/image/2022/05/14/11-1.png)
 1. 接着输入`lsmod | grep usb`应该能看到以下输出，输出中有`snd_usb_audio `，`snd_usb_lib`即可
@@ -28,15 +29,15 @@ Source_ Event_________________ Ch _Data__
 ![](https://dig4.lwnlh.com/image/2022/05/14/11-3.png)
 1. 输入`aseqdump -p 20`，其中`20`为上面记下的`client 20`，然后敲击键盘，看到如下输出则你的MIDI键盘与Manjaro正常通信
 ![](https://dig4.lwnlh.com/image/2022/05/14/11-4.png)
-##弹奏！
-###安装软件合成器`QSynth`
+## 弹奏！
+### 安装软件合成器`QSynth`
 ```
 sudo pacman -S qsynth
 ```
-###下载`SoundFont`
+### 下载`SoundFont`
 从[http://soundfonts.narod.ru/](http://soundfonts.narod.ru/)下载名为`Фортепиано`的`Piano.zip`解压备用
 ![](https://dig4.lwnlh.com/image/2022/05/14/11-11.png)
-###设置`QSynth`
+### 设置`QSynth`
 1. 输入`qsynth -a alsa`启动`QSynth`
 ![](https://dig4.lwnlh.com/image/2022/05/14/11-10.png)
 1. 输入点击`Setuo`设置下上面下载的音源，个人推荐`Collection`,`CP-70`,`Grand`这三个
